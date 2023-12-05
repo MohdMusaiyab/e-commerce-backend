@@ -12,6 +12,9 @@ import path from "path"
 //For configuring env
 dotenv.config();
 //Databse configuration
+//Es Module Fix
+const __filename=fileURLToPath(import.meta.url);
+const __dirname=path.dirname(__filename);
 
 const app=express();
 //Middle ware
