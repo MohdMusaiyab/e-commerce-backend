@@ -9,6 +9,7 @@ import productRoutes from "./routes/productRoutes.js"
 import contactRoutes from "./routes/contactRoute.js"
 import cors from "cors"
 import path from "path"
+import {fileURLToPath} from 'url';
 //For configuring env
 dotenv.config();
 //Databse configuration
